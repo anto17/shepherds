@@ -1,0 +1,265 @@
+#menu {
+	list-style: none;
+	padding:0px;
+	margin:0px;
+	width: 708px;
+	height: 36px;
+	background:none;
+	/*position: relative;*/
+	overflow:hidden;
+	padding-top:71px;
+}
+#menu span {
+	display: none;
+	position: absolute;
+}
+#menu a {
+	margin:0px;
+	padding:0px;
+	height: 36px;
+	display: block;
+	text-align:left;
+	/*text-indent: -900%;
+	position: absolute;*/
+	outline: none;
+}
+#menu a:hover {
+	background-position: left bottom;
+}
+#menu a:hover span{
+	display: block;
+}
+#menu .home {
+	width: 46px;
+	height: 36px;
+	background:url(../images/menu-home.png) no-repeat;
+	left: 0px;
+	top: 0px;
+}
+#menu .home span {
+	width: 46px;
+	height: 36px;
+	background:url(../images/menu-home-a.png) no-repeat;
+}
+#menu .aboutus {
+	width: 77px;
+	height: 36px;
+	background:url(../images/menu-aboutus.jpg) no-repeat;
+	left: 46px;
+	top: 0px;
+}
+#menu .aboutus span {
+	width: 77px;
+	height: 36px;
+	background:url(../images/menu-aboutus-a.jpg) no-repeat;
+}
+#menu .ministry {
+	width: 73px;
+	height: 36px;
+	background:url(../images/menu-ministry.jpg) no-repeat;
+	left: 123px;
+	top: 0px;
+}
+#menu .ministry span {
+	width: 73px;
+	height: 36px;
+	background:url(../images/menu-ministry-a.jpg) no-repeat;
+}
+#menu .partnership {
+	width: 94px;
+	height: 36px;
+	background:url(../images/menu-partnership.jpg) no-repeat;
+	left: 196px;
+	top: 0px;
+}
+#menu .partnership span {
+	width: 94px;
+	height: 36px;
+	background:url(../images/menu-partnership-a.jpg) no-repeat;
+}
+#menu .testimony {
+	width: 105px;
+	height: 36px;
+	background:url(../images/menu-testimony.jpg) no-repeat;
+	left: 290px;
+	top: 0px;
+}
+#menu .testimony span {
+	width: 105px;
+	height: 36px;
+	background:url(../images/menu-testimony-a.jpg) no-repeat;
+}
+#menu .takeaction {
+	width: 92px;
+	height: 36px;
+	background:url(../images/menu-takeaction.jpg) no-repeat;
+	left: 395px;
+	top: 0px;
+}
+#menu .takeaction span {
+	width: 92px;
+	height: 36px;
+	background:url(../images/menu-takeaction-a.jpg) no-repeat;
+}
+#menu .album {
+	width: 61px;
+	height: 36px;
+	background:url(../images/menu-album.jpg) no-repeat;
+	left: 487px;
+	top: 0px;
+}
+#menu .album span {
+	width: 61px;
+	height: 36px;
+	background:url(../images/menu-album-a.jpg) no-repeat;
+}
+#menu .gospel {
+	width: 65px;
+	height: 36px;
+	background:url(../images/menu-gospel.jpg) no-repeat;
+	left: 548px;
+	top: 0px;
+}
+#menu .gospel span {
+	width: 65px;
+	height: 36px;
+	background:url(../images/menu-gospel-a.jpg) no-repeat;
+}
+#menu .contactus {
+	width: 95px;
+	height: 36px;
+	background:url(../images/menu-contactus.png) no-repeat;
+	left: 613px;
+	top: 0px;
+}
+#menu .contactus span {
+	width: 95px;
+	height: 36px;
+	background:url(../images/menu-contactus-a.png) no-repeat;
+}
+#menu .giveus {
+	width: 80px;
+	height: 35px;
+	background:url(../images/custom/menu-giveus.png) no-repeat;
+	left: 613px;
+	top: 0px;
+}
+
+#menu li {
+padding:0px;
+margin:0px;
+float: left;
+height:20px;
+list-style:none;
+}
+
+/*#menu a {
+display:block;
+margin:0px;
+padding:0px;
+background:none;
+}*/
+
+#menu a:hover {
+}
+
+
+#menu li .sub {
+display:none;
+}
+#menu li:hover .sub {
+position:absolute;
+display:block;
+list-style:none;
+width:220px;
+padding:0px;
+margin:0px;
+z-index:9999;
+background:#565600;
+border-radius:10px; /*some css3*/
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
+
+#menu li .sub li
+{
+float:left;
+width:220px;
+font-size:14px;
+height:40px;
+border-left:none;
+}
+
+#menu li .sub li a {
+float:left;
+margin:0px;
+padding:0px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:10px;
+text-decoration:none;
+color:#fff;
+width:200px;
+text-transform:uppercase;
+padding:15px 10px;
+}
+#menu li .sub li a:hover {
+color:#000;
+height:10px;
+background:#f4f2f3;
+border-radius:10px; /*some css3*/
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
+
+
+
+#menu .sub li .ssub {
+display:none;
+}
+#menu .sub li:hover .ssub {
+position:absolute;
+display:block;
+list-style:none;
+width:220px;
+padding:0px;
+margin:0px;
+margin-left:220px;
+z-index:9999;
+background:#053367;
+border-radius:10px; /*some css3*/
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
+
+#menu .sub li  .ssub li
+{
+float:left;
+width:220px;
+font-size:14px;
+height:40px;
+border-left:none;
+
+}
+
+#menu .sub li  .ssub li a {
+float:left;
+margin:0px;
+padding:0px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:10px;
+text-decoration:none;
+color:#fff;
+width:200px;
+text-transform:uppercase;
+padding:15px 10px;
+}
+#menu .sub li .ssub li a:hover {
+color:#000 !important;
+height:10px;
+background:#f4f2f3;
+border-radius:10px; /*some css3*/
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}

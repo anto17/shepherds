@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0px; background:url(../images/bg.jpg) repeat; }
+
+
+
+
+
+
+a { text-decoration:none; outline:none; border:none; }
+a:hover { color:#000 !important; text-decoration:none; }
+img { outline:none; border:none; }
+td { vertical-align:top; }
+.break { padding:5px; }
+
+
+.right-img { float:right; margin:20px 0px 20px 20px; }
+.left-img { float:left; margin:20px 20px 20px 0px; }
+
+
+
+
+
+
+
+
+.header-bg { background:url(../images/header-bg.png) no-repeat top center; margin-bottom:25px; }
+.header-glow {background:url(../images/header-glow.png) no-repeat -50px 0px;  }
+.logo { margin:36px 10px 10px 15px; }
+
+
+
+
+
+
+
+.content { font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px; color:#000; }
+.content .hom-title { font-family: 'Archivo Narrow', sans-serif; font-size:24px; background: transparent url(../images/title-left-bg.png) no-repeat 0 0; display: block; padding-left: 10px;  height: 45px; text-decoration: none; margin: 0 0 0 0; font-weight:normal; color:#ffffff; min-width:310px; }
+.content .hom-title a { float:right; font-size:12px; padding-right:10px; font-family:Arial, Helvetica, sans-serif; }
+.content .hom-title a, .content .hom-title a:visited, .content .hom-title a:visited { color: #ffffff;}
+.content .hom-title span { background: transparent url(../images/title-right-bg.png) no-repeat 100% 0; display: block; height: 19px; line-height:24px; text-decoration: none; color:#ffffff; padding:8px 0 8px 0; }
+.content  .hom-ministry { margin-bottom:10px; padding-bottom:10px; border-bottom:#787760 1px dashed; font-size:11px; min-height:130px; }
+.content  .hom-ministry .heading { margin-bottom:10px; font-size:14px; font-weight:bold; }
+.content  .hom-ministry img { border:#787760 3px solid; margin-right:20px; float:left; }
+.content  .hom-ministry span, .content  .hom-ministry span a { margin-left:10px; color:#ff0000; }
+.content  .hom-newsletter { background:url(../images/hom-newsletter-bg.png) no-repeat top center; padding:54px 20px 20px 20px; color:#372f26; font-size:11px; }
+.content  .hom-newsletter .head { width:160px; float:left; font-weight:bold; text-transform:uppercase; }
+.content  .hom-newsletter .date-bg { background:url(../images/date-bg.png) no-repeat; width:50px; padding-bottom:2px; margin-right:20px; margin-bottom:47px; float:left; }
+.content  .hom-newsletter .date-bg .month { font-size:12px; text-transform:uppercase; text-align:center; color:#FFF; }
+.content  .hom-newsletter .date-bg .day { font-size:16px; font-weight:bold; text-align:center; color:#FFF; }
+a.more { margin-left:10px; color:#ff0000 !important; font-size:10px; }
+a:hover.more { color:#000 !important; text-decoration:none; }
+
+
+.content .hom-gospel-center { background:#787760; padding:20px 10px 10px 10px; font-weight:bold; color:#FFF; font-size:11px; }
+.content .hom-gospel-center em { font-size:10px; color:#372f26; }
+.content .hom-gospel-center a { color:#FFF; }
+
+.content .bg { padding:0 20px 20px 20px; 
+	background: url(../images/heading-bg.jpg)  repeat-x scroll 0px -5px #fff;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+	-khtml-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+	
+}
+.content .title { font-family: 'Archivo Narrow',sans-serif; font-size:22px; text-align:left; display: block; padding-left: 10px; font-weight:bold;  height: 20px; text-decoration: none; margin: 0 0 0 0; font-weight:normal; color:#565600; min-width:310px; padding:8px 12px 0px; margin-bottom:21px; text-transform:uppercase; }
+
+.content .title a { text-decoration:none;  }
+.content .title a:hover { text-decoration:none;  }
+.content .title a, .content .title a:visited, .content .title a:visited { color: #565600;}
+.content .title span { display: block; height: 30px; line-height:30px; text-decoration: none; color:#565600; }
+
+
+
+
+
+
+
+
+.footer { background:url(../images/footer-bg.jpg) repeat; border-top:#0061ff 10px solid; font-family:Verdana, Geneva, sans-serif; font-size:14px; }
+.footer .footer-center { background:url(../images/footer-center.jpg) no-repeat top center; text-transform:uppercase; color:#ece4db; font-size:12px; line-height:18px; }
+.footer a { color:#ece4db; }
+.footer .footer-center .heading { font-family: 'Archivo Narrow', sans-serif; font-size:24px; font-weight:bold; color:#001c49; margin:20px 0; border-bottom:1px solid #001c49; padding-bottom:10px; }
+.footer .copy-bg { background:url(../images/copy-bg.png) repeat-x top; font-size:11px; padding-top:15px; color:#FFF; }
+
+.btxt { font-size:12px; color:#000; line-height:20px; font-family:Arial, Helvetica, sans-serif; }
+.Text { font-size:12px; color:#000; line-height:20px; font-family:Arial, Helvetica, sans-serif; }
+.Textbold { font-size:12px;font-weight:bold; color:#000; line-height:20px; font-family:Arial, Helvetica, sans-serif; }
+.titlehead { font-family: 'Archivo Narrow', sans-serif; font-size:30px;  padding-left: 10px; font-weight:bold;  height: 30px; text-decoration: none; margin: 0 0 0 0; font-weight:normal; color:#7d132d;  padding:9px; padding-top:0px; margin-bottom:21px; }
+.menutxt { font-size:13px;font-weight:bold; color:#000; line-height:20px; font-family:Arial, Helvetica, sans-serif; }
+
+.heading { font-size:14px;font-weight:bold; color:#000; line-height:20px; font-family:Arial, Helvetica, sans-serif; }
+
+.arch { font-size:12px;font-weight:bold; color:#000; line-height:20px;text-decoration:underline; margin-right:150px; font-family:Arial, Helvetica, sans-serif; }
+
+.header { font-size:14px;font-weight:bold; color:#000; line-height:20px; font-family:Arial, Helvetica, sans-serif; }
+
+.heading a { text-decoration:none; color:#000;}
+
+.heading a:hover { text-decoration:none; color:#000;}
+
+.arch a { text-decoration:none; color:#000;}
+
+.arch a:hover { text-decoration:none; color:#000;}
+
+.header a { text-decoration:none; color:#000; text-transform:uppercase;}
+
+.header a:hover { text-decoration:none; color:#000; text-transform:uppercase;}
+
+.Textbold a:hover { text-decoration:none; color:#000;}
+
+.Textbold a { text-decoration:none; color:#000;}
+
+.Text a:hover { text-decoration:none; color:#000;}
+
+.Text a { text-decoration:none; color:#000;}
+
+.btxt a:hover { text-decoration:none; color:#000;}
+
+.btxt a { text-decoration:none; color:#000;}
+
+.titlehead a:hover { text-decoration:none; color:#565600;}
+
+.titlehead a { text-decoration:none; color:#565600;}
