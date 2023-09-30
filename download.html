@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from shepherdsinchrist.net/download.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Sep 2023 04:52:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shepherds in Christ International</title>
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<link href="css/cssmenu.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+		function echeck(str) 
+		{
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("Kindly enter a valid e-mail")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("Kindly enter a valid e-mail")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("Kindly enter a valid e-mail")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("Kindly enter a valid e-mail")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("Kindly enter a valid e-mail")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("Kindly enter a valid e-mail")
+		    return false
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		    alert("Kindly enter a valid e-mail")
+		    return false
+		 }
+ 		 					
+	}	
+			function check()
+			{
+				var doc = document.prayer;
+				
+				if(document.prayer.person_name.value=='')
+				{
+					alert("Please enter your first name");
+					document.prayer.person_name.focus();
+					return false;
+				}
+				else if(document.prayer.lname.value=='')
+				{
+					alert("Please enter your last name");
+					document.prayer.lname.focus();
+					return false;
+				}
+				else if(echeck(document.prayer.email.value)=='')
+				{
+					
+					document.prayer.email.focus();
+					return false;
+				}
+				
+				else if(document.prayer.captcha.value=='')
+				{
+					alert("Please enter the captcha value.");
+					document.prayer.captcha.focus();
+					return false;
+				}
+				return true;
+					
+			}
+			
+
+			function validateChars2(evt,bSpaceAllow)
+			{
+			var isIE = navigator.userAgent.indexOf("MSIE") != -1;
+			keyvalue = evt.keyCode;
+			charvalue = String.fromCharCode(keyvalue);
+			
+				evt = (evt) ? evt : event;
+			
+				var charCode = (evt.charCode) ? evt.charCode : ((evt.keyCode) ? evt.keyCode : ((evt.which) ? evt.which : 0));
+				// Allowed to enter backward apostrophe (`) - 96 
+				if( ( charCode >= 45 && charCode <= 57))
+					return true;
+				
+				if(bSpaceAllow == 1 && (charCode == 32 || charCode==8 || charCode==46))
+				{
+					return true;
+				}
+				else
+					return false;
+			}
+			
+		</script>
+</head>
+
+<body>
+<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table class="header-bg" width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td class="header-glow"><table align="center" width="1000" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table align="center" width="1000" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td>
+<ul id="menu">
+  <li><a class="left"><!--left--><span></span></a></li>
+  <li><a href=".html" class="home"  ><!--Home--><span></span></a></li>
+  <li><a class="aboutus"  ><!--About Us--><span></span></a>
+  <ul class="sub">
+  <li><a href="ministryteam.html">Ministry Team</a></li>
+  <li><a href="whyshepherdsinchrist.html">Why Shepherds in Christ</a></li>
+  <li><a href="statementoffaith.html">Statement of Faith</a></li>
+  <li><a href="codeofdoctrine.html">Code of Doctrine</a></li>
+  <li><a href="formofworship.html">Form of Worship</a></li>
+  <li><a href="transparency.html">Transparency</a></li>
+  </ul>
+  </li>
+  <li><a href="#" class="ministry"  ><!--ministry--><span></span></a>
+  <ul class="sub">
+  <li><a href="newsletter.html">News Letter</a></li>
+  <li><a href="#">Mission Support<img src="images/aerrow.png" width="16" height="17" align="right" /></a>
+  <ul class="ssub">
+    <li><a href="ministry_view0835.html?cat=1&amp;subcat=1&amp;Id=1">Mission Projects</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Poor & Needy Support<img src="images/aerrow.png" width="16" height="17" align="right" /></a>
+  <ul class="ssub">
+    <li><a href="ministry_viewbab7.html?cat=2&amp;subcat=1&amp;Id=8">Old aged home</a></li>
+    <li><a href="ministry_view007b.html?cat=2&amp;subcat=2&amp;Id=14">Orphange home</a></li>
+    <li><a href="ministry_viewd4b0.html?cat=2&amp;subcat=3&amp;Id=10">Meals for souls</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Conferences & Seminars<img src="images/aerrow.png" width="16" height="17" align="right" /></a>
+  <ul class="ssub">
+    <li><a href="ministry_view755f.html?cat=3&amp;subcat=1&amp;Id=9">Insight services</a></li>
+    <li><a href="ministry_viewaa2a.html?cat=3&amp;subcat=2&amp;Id=16">Conferences</a></li>
+  </ul>
+  </li>
+  <li><a href="http://christians4rapture.shepherdsinchrist.org/" target="_blank">Christians4rapture</a></li>
+  </ul>
+  </li>
+  <li><a class="partnership"  ><!--partnership--><span></span></a>
+  <ul class="sub">
+  <li><a href="partnerregistration.html">Partner Registration</a></li>
+  <li><a href="signupasvolunteer.html">Signup As Volunteer</a></li>
+  <li><a href="partnering_ministries.html">Partnering Ministries</a></li>
+  </ul>
+  </li>
+  <li><a class="testimony"  ><!--testimony--><span></span></a>
+  <ul class="sub">
+  <li><a href="testimonies.html">Testimony</a></li>
+  <li><a href="testimony.html">Post Your Testimony</a></li>
+  <li><a href="prayerpoints.html">Prayer Points</a></li>
+  </ul>
+  </li>
+  <li><a class="takeaction"  ><!--takeaction--><span></span></a>
+  <ul class="sub">
+  <li><a href="tellafriend.html">Tell A Friend</a></li>
+  <!--<li><a href="howtobecomeachristian.php">How Becoming a Christian ?</a></li>-->
+  <!--<li><a href="prayerline.php">Prayer Line</a></li>-->
+  <!--<li><a href="shareanoppurtunity.php">Share An Oppurtunity</a></li>-->
+  <li><a href="downloadresource.html">Download Resource</a></li>
+  <!--<li><a href="yourcommunityneeds.php">Your Community Needs !</a>-->
+  <li><a href="your-project-needs.html">Your Project Needs</a></li>
+  </ul>
+  </li>
+  <li><a class="album"  ><!--album--><span></span></a>
+  <ul class="sub">
+  <li><a href="album.html">Album</a></li>
+  </ul>
+  </li>
+  <li><a class="gospel"  ><!--gospel--><span></span></a>
+  <ul class="sub" style="margin-left:-60px;">
+  <li><a href="#">gospel</a>
+  <ul class="sub">
+  <li><a href="audio.html">Audio</a></li>
+  <li><a href="video_gallery.html">Video</a></li>
+  </ul>
+  </li>
+  </ul>
+  </li>
+  <li><a class="contactus"  ><!--Contact Us--><span></span></a>
+  <ul class="sub" style="margin-left:-130px;">
+ <!-- <li><a href="prayerrequestinfo.php">Prayer Request</a></li>-->
+  <li><a href="onlinegiving.html">Online Giving</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+  </li>
+</ul></td>
+    <td><a href=".html"><img src="images/logo.png" alt="logo" class="logo" /></a></td>
+    
+  </tr>
+</table>
+</td>
+              </tr>
+            </table></td>
+        </tr>
+        <!--<tr>
+        <td height="4"></td>
+        </tr>-->
+      </table></td>
+  </tr>
+  <tr>
+    <td><table class="content" align="center" width="1000" border="0" cellspacing="0" cellpadding="0">
+        <tr><td align="left" class="heading" valign="middle"><a href="album.html">Album</a> <img src="images/aerrow.png" alt="aerrow" width="16" height="17" /></td></tr>
+        <tr>
+          <td class="bg"><div class="title"><span>Album Download </span></div>
+          <div class="break"></div>
+          <table width="350" border="0" cellspacing="2" cellpadding="2" align="center">
+						<tr height="200">
+							<td width="60" height="200"></td>
+							<td valign="top" width="400" height="200">
+								<form action="http://shepherdsinchrist.net/download.php" method="post" name="prayer" enctype="multipart/form-data">
+								<input type="hidden" name="stage" value="1">
+
+																		<table width="450" border="0" cellspacing="2" cellpadding="4" align="center">
+										  										<tr>
+											<td valign="top" >
+												<table width="450"  border="0" cellspacing="4" class="Text" cellpadding="4" align="center">
+													<tr>
+														<td width="98" class="Textbold">First Name <font color="#FF0000">*</font></td>
+														<td width="10" class="Textbold"><div align="center">:</div></td>
+														<td width="302" ><input type="text" name="person_name"  border="0" ></td>
+													</tr> <tr height="5"><td width="98" height="5"></td></tr>
+                                                    <tr>
+														<td width="98" class="Textbold">Last Name <font color="#FF0000">*</font></td>
+														<td width="10" class="Textbold"><div align="center">:</div></td>
+														<td width="302" ><input type="text" name="lname"  border="0" ></td>
+													</tr> <tr height="5"><td width="98" height="5"></td></tr>
+											  <tr>
+														<td width="98" class="Textbold">Email <font color="#FF0000">*</font></td>
+														<td width="10" class="Textbold"><div align="center">:</div></td>
+														<td width="302" ><input type="text" name="email"  border="0" ></td>
+												  </tr> <tr height="5"><td width="98" height="5"></td></tr>
+													<tr>
+														<td width="98" class="Textbold">Phone / Mobile</td>
+														<td width="10" class="Textbold"><div align="center">:</div></td>
+														<td width="302" ><input type="text" name="phone"  border="0" onKeyPress="return validateChars2(event,1);" class="ml3"></td>
+													</tr> 
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td align="left" class="Text"><img src="captcha_org.jpg" id="captcha" align="left" /></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td align="right" colspan="2"><img src="images/refresh.png"  width="19" height="20" align="right" style="cursor:pointer"  onclick="document.getElementById('captcha').src='captcha_orgd41d.jpg?'+Math.random();
+                                                document.getElementById('captcha-form').focus();"
+                                                id="change-image" /></td>
+                                                        
+                                                        <td  align="left" valign="middle" class="Text">
+                                                        
+                                                        <input type="text" name="captcha" id="captcha-form" autocomplete="off" />
+                                                        </td>
+                                                      </tr>
+                                                     
+													<tr><td class="successful" align="center" height="20" colspan="3"></td></tr>
+													<tr height="20">
+														<td valign="top" width="98" class="ml2" height="20"></td>
+														
+														<td align="center" valign="middle" colspan="2" class="ml3" height="20"><input type="image" value="submit" src="Admin/images/admin_but_submit.jpg" alt="Submit" width="118" height="39"  border="0" onClick="return check()"></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</form>
+                                							</td>
+							<td width="65" height="200"></td>
+						</tr>
+			</table>
+          <div class="break"></div>
+          </td>
+        </tr>
+        <tr>
+          <td height="20"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="footer"><table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="footer-center"><table align="center" width="1000" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="190"><div class="heading">About Us</div>
+          	<a href="ministryteam.html">Ministry Team</a><br />
+            <a href="whyshepherdsinchrist.html">Why Shepherds in Christ</a><br />
+            <a href="statementoffaith.html">Statement of Faith</a><br />
+            <a href="codeofdoctrine.html">Code of Doctrine</a><br />
+            <a href="formofworship.html">Form of Worship</a><br />
+            <a href="transparency.html">Transparency</a>
+            <div class="heading">Contact Us</div>
+          	<a href="prayerrequestinfo.html">Prayer Request</a><br />
+            <a href="onlinegiving.html">Online Giving</a><br />
+            <a href="contactus.html">Contact Us</a><br /><br />
+            </td>
+          <td width="20"></td>
+          <td width="210"><div class="heading">Ministry</div>
+            <a href="newsletter.html">News Letter</a><br />
+            <a href="ministry_view0835.html?cat=1&amp;subcat=1&amp;Id=1">Mission Projects</a><br />
+            <a href="ministry_viewbab7.html?cat=2&amp;subcat=1&amp;Id=8">Old aged home</a><br />
+            <a href="ministry_view007b.html?cat=2&amp;subcat=2&amp;Id=14">Orphange home</a><br />
+            <a href="ministry_viewd4b0.html?cat=2&amp;subcat=3&amp;Id=10">Meals for souls</a><br />
+            <a href="ministry_view755f.html?cat=3&amp;subcat=1&amp;Id=9">Insight services</a><br />
+            <a href="ministry_viewaa2a.html?cat=3&amp;subcat=2&amp;Id=16">Conferences</a><br />
+            	
+													
+		<a href="christians4rapture_viewb31a.html?cat=1">Message</a><br />
+				<a href="christians4rapture_view3f7b.html?cat=2">End Time Activities</a><br />
+		            </td>
+          <td width="20"></td>
+          <td width="200"><div class="heading">Take Action</div>
+          	<a href="testimonies.html">Testimony</a><br />
+            <a href="prayerpoints.html">Prayer Points</a><br />
+            <a href="tellafriend.html">Tell A Friend</a><br />
+            <!--<a href="howtobecomeachristian.php">How Becoming a Christian ?</a><br />
+            <a href="prayerline.php">Prayer Line</a><br />-->
+            <a href="downloadresource.html">Download Resource</a><br />
+            <!--<a href="yourcommunityneeds.php">Your Community Needs !</a>-->
+            <a href="your-project-needs.html">Your Project Needs</a>
+            <div class="heading">Partnership</div>
+          	<a href="partnerregistration.html">Partner Registration</a><br />
+            <a href="signupasvolunteer.html">Signup As Volunteer</a><br />
+            <a href="partnering_ministries.html">Partnering Ministries</a>
+            </td>
+          <td width="20"></td>
+          <td width="280"><div class="heading">Connect with us</div>
+            <a href="http://www.youtube.com/user/shepherdsinchrist" target="_blank"><img src="images/youtube.png" width="53" height="53" /></a><a href="http://twitter.com/ShepherdsIntl" target="_blank"><img src="images/twitter.png" width="53" height="53" /></a><a href="http://www.facebook.com/group.php?gid=173405203823" target="_blank"><img src="images/facebook.png" width="53" height="53" /></a><!--<a href="."><img src="images/in.png" width="53" height="53" /></a>-->
+            <div class="heading">Contact Address</div>
+            <strong>GLOBAL HEADQUARTERS</strong><br>
+            Shepherds  In Christ International<br />
+            6818 W  113th Street<br />
+            Bloomington  MN 55438
+            <p><strong>India  Operations</strong><br />
+              Shepherds  in Christ Ministries<br />
+              160,  PTR Colony<br />
+              Uthamapalayam  - 625 533<br />
+              Theni  District<br>
+              <br>
+              Email: <a href="mailto:info@shepherdsinchrist.com">info@shepherdsinchrist.com</a>
+          <br />
+          </p></td>
+          <!--<td width="20"></td>
+          <td><div class="heading">Facebook</div></td>-->
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="copy-bg"><table align="center" width="1000" border="0" cellspacing="10" cellpadding="0">
+        <tr>
+          <td align="left">Copyright &copy; <script type="text/javascript">var d = new Date();document.write(d.getFullYear());</script> Shepherdsinchrist. All rights reserved.</td>
+          <td align="right">Powered by <a href="http://www.netzoneinc.com/" target="_blank">Netzone International</a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</body>
+
+<!-- Mirrored from shepherdsinchrist.net/download.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Sep 2023 04:52:28 GMT -->
+</html>

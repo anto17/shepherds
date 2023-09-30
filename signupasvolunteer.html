@@ -1,0 +1,670 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from shepherdsinchrist.net/signupasvolunteer.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Sep 2023 04:49:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shepherds in Christ International</title>
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<link href="css/cssmenu.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery1_4_4.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript">
+		//SubmittingForm=function() {
+			//alert("The form has been validated.");
+		//}
+$(document).ready(function() {
+	$("#third").validate({
+		submitHandler:function(form) {
+			SubmittingForm();
+		},
+			rules: {
+			YourFullName : { required: true, minlength:3},
+			email : { required: true, email: true},
+			Address : { required: true ,minlength:3},
+			City : { required: true ,minlength:3},
+			State : { required: true ,minlength:3},
+			Zipcode : { number: true ,minlength:3},
+			Country : { required: true},
+			PartneringArea: { required: true,minlength:1},
+			captcha : { required: true}}
+			//emop : { required: true}}
+			//telephone: 	{ number: true, minlength:7},
+			//comment: { required: true, minlength:3}}
+		});
+});
+//specail character
+$.validator.addMethod("noSpecialChars", function(value, element) {
+  return this.optional(element) || /^[a-z .\_]+$/i.test(value);
+}, "No digits are accepted.");
+ 
+jQuery.validator.addMethod(
+	"selectNone",
+	function(value, element) {
+		if (element.value == "none")
+		{
+			return false;
+		}
+		else return true;
+	},
+	"Please select an option."
+);
+	
+	
+</script>
+<style type="text/css">
+label.error 	{ background: url(images/error.png) no-repeat 0 0 ; color: red;  padding-left:20px; margin-left:20px;   height:35px; font-size:12px; font-weight:bold; line-height:35px;}
+textarea				{ height:90px; width:380px !important; line-height:20px !important;}
+input[type=text],input[type=password], input[type=file] ,textarea,select{ padding:3px;	border: solid 1px #dadada;	outline: 0;	font: normal 13px/100% Arial, Tahoma, sans-serif; width: 210px; box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;}
+input[type=file] ,input[type=password]:hover, input[type=text]:hover,textarea:hover,textarea:focus, input[type=text] input:focus { border-color: #bebebe; -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 8px; -moz-box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 8px; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 8px;}
+
+</style>
+</head>
+
+<body>
+<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table class="header-bg" width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td class="header-glow"><table align="center" width="1000" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table align="center" width="1000" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td>
+<ul id="menu">
+  <li><a class="left"><!--left--><span></span></a></li>
+  <li><a href=".html" class="home"  ><!--Home--><span></span></a></li>
+  <li><a class="aboutus"  ><!--About Us--><span></span></a>
+  <ul class="sub">
+  <li><a href="ministryteam.html">Ministry Team</a></li>
+  <li><a href="whyshepherdsinchrist.html">Why Shepherds in Christ</a></li>
+  <li><a href="statementoffaith.html">Statement of Faith</a></li>
+  <li><a href="codeofdoctrine.html">Code of Doctrine</a></li>
+  <li><a href="formofworship.html">Form of Worship</a></li>
+  <li><a href="transparency.html">Transparency</a></li>
+  </ul>
+  </li>
+  <li><a href="#" class="ministry"  ><!--ministry--><span></span></a>
+  <ul class="sub">
+  <li><a href="newsletter.html">News Letter</a></li>
+  <li><a href="#">Mission Support<img src="images/aerrow.png" width="16" height="17" align="right" /></a>
+  <ul class="ssub">
+    <li><a href="ministry_view0835.html?cat=1&amp;subcat=1&amp;Id=1">Mission Projects</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Poor & Needy Support<img src="images/aerrow.png" width="16" height="17" align="right" /></a>
+  <ul class="ssub">
+    <li><a href="ministry_viewbab7.html?cat=2&amp;subcat=1&amp;Id=8">Old aged home</a></li>
+    <li><a href="ministry_view007b.html?cat=2&amp;subcat=2&amp;Id=14">Orphange home</a></li>
+    <li><a href="ministry_viewd4b0.html?cat=2&amp;subcat=3&amp;Id=10">Meals for souls</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Conferences & Seminars<img src="images/aerrow.png" width="16" height="17" align="right" /></a>
+  <ul class="ssub">
+    <li><a href="ministry_view755f.html?cat=3&amp;subcat=1&amp;Id=9">Insight services</a></li>
+    <li><a href="ministry_viewaa2a.html?cat=3&amp;subcat=2&amp;Id=16">Conferences</a></li>
+  </ul>
+  </li>
+  <li><a href="http://christians4rapture.shepherdsinchrist.org/" target="_blank">Christians4rapture</a></li>
+  </ul>
+  </li>
+  <li><a class="partnership"  ><!--partnership--><span></span></a>
+  <ul class="sub">
+  <li><a href="partnerregistration.html">Partner Registration</a></li>
+  <li><a href="signupasvolunteer.html">Signup As Volunteer</a></li>
+  <li><a href="partnering_ministries.html">Partnering Ministries</a></li>
+  </ul>
+  </li>
+  <li><a class="testimony"  ><!--testimony--><span></span></a>
+  <ul class="sub">
+  <li><a href="testimonies.html">Testimony</a></li>
+  <li><a href="testimony.html">Post Your Testimony</a></li>
+  <li><a href="prayerpoints.html">Prayer Points</a></li>
+  </ul>
+  </li>
+  <li><a class="takeaction"  ><!--takeaction--><span></span></a>
+  <ul class="sub">
+  <li><a href="tellafriend.html">Tell A Friend</a></li>
+  <!--<li><a href="howtobecomeachristian.php">How Becoming a Christian ?</a></li>-->
+  <!--<li><a href="prayerline.php">Prayer Line</a></li>-->
+  <!--<li><a href="shareanoppurtunity.php">Share An Oppurtunity</a></li>-->
+  <li><a href="downloadresource.html">Download Resource</a></li>
+  <!--<li><a href="yourcommunityneeds.php">Your Community Needs !</a>-->
+  <li><a href="your-project-needs.html">Your Project Needs</a></li>
+  </ul>
+  </li>
+  <li><a class="album"  ><!--album--><span></span></a>
+  <ul class="sub">
+  <li><a href="album.html">Album</a></li>
+  </ul>
+  </li>
+  <li><a class="gospel"  ><!--gospel--><span></span></a>
+  <ul class="sub" style="margin-left:-60px;">
+  <li><a href="#">gospel</a>
+  <ul class="sub">
+  <li><a href="audio.html">Audio</a></li>
+  <li><a href="video_gallery.html">Video</a></li>
+  </ul>
+  </li>
+  </ul>
+  </li>
+  <li><a class="contactus"  ><!--Contact Us--><span></span></a>
+  <ul class="sub" style="margin-left:-130px;">
+ <!-- <li><a href="prayerrequestinfo.php">Prayer Request</a></li>-->
+  <li><a href="onlinegiving.html">Online Giving</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+  </li>
+</ul></td>
+    <td><a href=".html"><img src="images/logo.png" alt="logo" class="logo" /></a></td>
+    
+  </tr>
+</table>
+</td>
+              </tr>
+            </table></td>
+        </tr>
+        <!--<tr>
+        <td height="4"></td>
+        </tr>-->
+      </table></td>
+  </tr>
+  <tr>
+    <td><table class="content" align="center" width="1000" border="0" cellspacing="0" cellpadding="0">
+        <tr><td align="left" class="heading" valign="middle"><a href="#">Partnership </a> <img src="images/aerrow.png" alt="aerrow" width="16" height="17" /></td></tr>
+        <tr>
+          <td class="bg"><div class="title"><span>Signup As Volunteer</span></div>
+            <table cellpadding="2" cellspacing="2" border="0">
+            <tr>
+            	<td colspan="2">
+                
+          Volunteer sign-up is FREE and open to all wanting to be involved in giving back to the community in some fashion. As volunteers, you will receive periodic updates of our work/oppurtunities and how you could be a source of blessing to your community.
+          <div class="break"></div>
+          <strong>God Bless</strong><br />
+          We guarantee and safeguard your personal information. 
+          
+          
+                </td>
+                
+                </tr>
+                
+                <tr>
+            	<td>
+                
+                    <form name="regform" id="third"  action="http://shepherdsinchrist.net/signupasvolunteer.php"  method="post" >
+<input type="hidden" name="stage" value="1" />
+
+<table width="100%" cellpadding="5" cellspacing="0" align="center">
+ <tr >
+  <td width="133" class="left" >
+    <strong>
+    <label >Your Full Name <span style="color:#F00">*</span></label>
+    </strong></td>
+    <td width="15" class="Textbold">&nbsp;&nbsp;:&nbsp;&nbsp;</div></td>
+  <td width="441" align="left" >
+   <input type="text"  name="YourFullName" class="Text" value="" id="YourFullName"   maxlength="100" maxsize="100" />
+  </td>
+ </tr>
+ <tr >
+  <td width="133" class="left" >
+    <strong>
+    <label >Organization Name</label>
+    </strong></td>
+  <td class="Textbold">&nbsp;&nbsp;:&nbsp;&nbsp;</div></td>
+  <td align="left" >
+   <input type="text"  name="OrganizationName" class="Text" value="" id="OrganizationName"   maxlength="100" maxsize="100" />
+  </td>
+ </tr>
+ <tr >
+  <td colspan="3" class="left" >
+   * Organization Name not applicable for Individual Volunteer sign-up
+  </td>
+ </tr>
+ <tr >
+  <td width="133" class="left" >
+    <strong>
+    <label >E-mail ID <span style="color:#F00">*</span></label>
+    </strong></td>
+  <td class="Textbold">&nbsp;&nbsp;:&nbsp;&nbsp;</div></td>
+  <td align="left" >
+   <input type="text"  name="email" class="Text" value="" id="email"   maxlength="100" maxsize="100" />
+  </td>
+ </tr>
+ <tr >
+  <td width="133" class="left" valign="top"  >
+    <strong>
+    <label>Address <span style="color:#F00">*</span></label>
+    </strong></td>
+  <td class="Textbold">&nbsp;&nbsp;:&nbsp;&nbsp;</div></td>
+  <td align="left" >
+   <textarea cols="30" rows="3" name="Address" class="Text" id="Address"  ></textarea>
+  </td>
+ </tr>
+ <tr >
+  <td width="133" class="left" >
+    <strong>
+    <label >City <span style="color:#F00">*</span></label>
+    </strong></td>
+  <td class="Textbold">&nbsp;&nbsp;:&nbsp;&nbsp;</div></td>
+  <td align="left" >
+   <input type="text"  name="City" class="Text" value="" id="City"   maxlength="100" maxsize="100" />
+  </td>
+ </tr>
+ <tr >
+  <td width="133" class="left" >
+    <strong>
+    <label >State <span style="color:#F00">*</span></label>
+    </strong></td>
+  <td class="Textbold">&nbsp;&nbsp;:&nbsp;&nbsp;</div></td>
+  <td align="left" >
+   <input type="text"  name="State" class="Text" value="" id="State"   maxlength="100" maxsize="100" />
+  </td>
+ </tr>
+ <tr >
+  <td width="133" class="left" >
+    <strong>
+    <label >Zip code <span style="color:#F00">*</span></label>
+    </strong></td>
+  <td class="Textbold">&nbsp;&nbsp;:&nbsp;&nbsp;</div></td>
+  <td align="left" >
+   <input type="text"  name="Zipcode" class="Text" value="" id="Zipcode"   maxlength="100" maxsize="100" />
+  </td>
+ </tr>
+ <tr >
+  <td width="133" class="left"  valign="top" >
+    <strong>
+    <label>Country <span style="color:#F00">*</span></label>
+    </strong></td>
+  <td class="Textbold">&nbsp;&nbsp;:&nbsp;&nbsp;</div></td>
+  <td align="left" >
+   <select class="Text" name="Country" id="Country"  >
+  <option></option>
+    <option>Abkhazia</option>
+    <option>Afghanistan</option>
+    <option>Aland</option>
+    <option>Albania</option>
+    <option>Algeria</option>
+    <option>American Samoa</option>
+    <option>Andorra</option>
+    <option>Angola</option>
+    <option>Anguilla</option>
+    <option>Antigua and Barbuda</option>
+    <option>Argentina Argentina</option>
+    <option>Armenia</option>
+    <option>Aruba</option>
+    <option>United Kingdom Ascension Island</option>
+    <option>Australia</option>
+    <option>Austria</option>
+    <option>Azerbaijan</option>
+    <option>The Bahamas</option>
+    <option>Bahrain</option>
+    <option>Bangladesh</option>
+    <option>Barbados</option>
+    <option>Belarus</option>
+    <option>Belgium</option>
+    <option>Belize</option>
+    <option>Benin</option>
+    <option>Bermuda</option>
+    <option>Bhutan</option>
+    <option>Bolivia</option>
+    <option>Bosnia and Herzegovina</option>
+    <option>Botswana</option>
+    <option>Brazil</option>
+    <option>Brunei</option>
+    <option>Bulgaria</option>
+    <option>Burkina Faso</option>
+    <option>Burundi</option>
+    <option>Cambodia</option>
+    <option>Cameroon</option>
+    <option>Canada</option>
+    <option>Cape Verde</option>
+    <option>Cayman Islands</option>
+    <option>Central African Republic</option>
+    <option>Chad</option>
+    <option>Chile</option>
+    <option>People's Republic of China</option>
+    <option>Republic of China</option>
+    <option>Christmas Island</option>
+    <option>Cocos (Keeling) Islands</option>
+    <option>Colombia</option>
+    <option>Comoros</option>
+    <option>Congo</option>
+    <option>Cook Islands</option>
+    <option>Costa Rica</option>
+    <option>Cote d'Ivoire</option>
+    <option>Croatia</option>
+    <option>Cuba</option>
+    <option>Cyprus</option>
+    <option>Czech Republic</option>
+    <option>Denmark</option>
+    <option>Djibouti</option>
+    <option>Dominica</option>
+    <option>Dominican Republic</option>
+    <option>Ecuador</option>
+    <option>Egypt</option>
+    <option>El Salvador</option>
+    <option>Equatorial Guinea</option>
+    <option>Eritrea</option>
+    <option>Estonia</option>
+    <option>Ethiopia</option>
+    <option>Falkland Islands</option>
+    <option>Faroe Islands</option>
+    <option>Fiji</option>
+    <option>Finland</option>
+    <option>France</option>
+    <option>French Polynesia</option>
+    <option>Gabon</option>
+    <option>The Gambia</option>
+    <option>Georgia</option>
+    <option>Germany</option>
+    <option>Ghana</option>
+    <option>Gibraltar</option>
+    <option>Greece</option>
+    <option>Greenland</option>
+    <option>Grenada</option>
+    <option>Guam</option>
+    <option>Guatemala</option>
+    <option>Guernsey</option>
+    <option>Guinea</option>
+    <option>Guinea-Bissau</option>
+    <option>Guyana Guyana</option>
+    <option>Haiti Haiti</option>
+    <option>Honduras</option>
+    <option>Hong Kong</option>
+    <option>Hungary</option>
+    <option>Iceland</option>
+    <option>India</option>
+    <option>Indonesia</option>
+    <option>Iran</option>
+    <option>Iraq</option>
+    <option>Ireland</option>
+    <option>Israel</option>
+    <option>Italy</option>
+    <option>Jamaica</option>
+    <option>Japan</option>
+    <option>Jersey</option>
+    <option>Jordan</option>
+    <option>Kazakhstan</option>
+    <option>Kenya</option>
+    <option>Kiribati</option>
+    <option>North Korea</option>
+    <option>South Korea</option>
+    <option>Kosovo</option>
+    <option>Kuwait</option>
+    <option>Kyrgyzstan</option>
+    <option>Laos</option>
+    <option>Latvia</option>
+    <option>Lebanon</option>
+    <option>Lesotho</option>
+    <option>Liberia</option>
+    <option>Libya</option>
+    <option>Liechtenstein</option>
+    <option>Lithuania</option>
+    <option>Luxembourg</option>
+    <option>Macau</option>
+    <option>Macedonia</option>
+    <option>Madagascar</option>
+    <option>Malawi</option>
+    <option>Malaysia</option>
+    <option>Maldives</option>
+    <option>Mali</option>
+    <option>Malta</option>
+    <option>Marshall Islands</option>
+    <option>Mauritania</option>
+    <option>Mauritius</option>
+    <option>Mayotte</option>
+    <option>Mexico</option>
+    <option>Micronesia</option>
+    <option>Moldova</option>
+    <option>Monaco</option>
+    <option>Mongolia</option>
+    <option>Montenegro</option>
+    <option>Montserrat</option>
+    <option>Morocco</option>
+    <option>Mozambique</option>
+    <option>Myanmar</option>
+    <option>Nagorno-Karabakh</option>
+    <option>Namibia</option>
+    <option>Nauru</option>
+    <option>Nepal</option>
+    <option>Netherlands</option>
+    <option>Netherlands Antilles</option>
+    <option>New Caledonia</option>
+    <option>New Zealand</option>
+    <option>Nicaragua</option>
+    <option>Niger</option>
+    <option>Nigeria</option>
+    <option>Niue</option>
+    <option>Norfolk Island</option>
+    <option>Turkish Republic of Northern Cyprus</option>
+    <option>Northern Mariana</option>
+    <option>Norway</option>
+    <option>Pakistan</option>
+    <option>Palau</option>
+    <option>Palestine</option>
+    <option>Panama</option>
+    <option>Papua New Guinea</option>
+    <option>Paraguay</option>
+    <option>Peru</option>
+    <option>Philippines</option>
+    <option>Pitcairn Islands</option>
+    <option>Poland</option>
+    <option>Portugal</option>
+    <option>Transnistria Pridnestrovie</option>
+    <option>Puerto Rico</option>
+    <option>Qatar</option>
+    <option>Romania</option>
+    <option>Russia</option>
+    <option>Rwanda</option>
+    <option>Saint Barthelemy</option>
+    <option>Saint Helena</option>
+    <option>Saint Kitts and Nevis</option>
+    <option>Saint Lucia</option>
+    <option>Saint Martin</option>
+    <option>Saint Pierre and Miquelon</option>
+    <option>Saint Vincent and the Grenadines</option>
+    <option>Samoa</option>
+    <option>San Marino</option>
+    <option>Saudi Arabia</option>
+    <option>Senegal</option>
+    <option>Serbia</option>
+    <option>Seychelles</option>
+    <option>Sierra Leone</option>
+    <option>Singapore</option>
+    <option>Slovakia</option>
+    <option>Slovenia</option>
+    <option>Solomon Islands</option>
+    <option>Somalia</option>
+    <option>Somaliland</option>
+    <option>South Africa</option>
+    <option>South Ossetia</option>
+    <option>Spain</option>
+    <option>Sri Lanka</option>
+    <option>Sudan</option>
+    <option>Suriname</option>
+    <option>Svalbard</option>
+    <option>Swaziland</option>
+    <option>Sweden</option>
+    <option>Switzerland</option>
+    <option>Syria</option>
+    <option>Tajikistan</option>
+    <option>Tanzania</option>
+    <option>Thailand</option>
+    <option>Timor-Leste</option>
+    <option>Togo</option>
+    <option>Tokelau</option>
+    <option>Tonga</option>
+    <option>Trinidad and Tobago</option>
+    <option>Tristan da Cunha</option>
+    <option>Tunisia</option>
+    <option>Turkey</option>
+    <option>Turkmenistan</option>
+    <option>Turks and Caicos Islands</option>
+    <option>Tuvalu</option>
+    <option>Uganda</option>
+    <option>Ukraine</option>
+    <option>United Arab Emirates</option>
+    <option>United Kingdom</option>
+    <option>United States</option>
+    <option>Uruguay</option>
+    <option>Uzbekistan</option>
+    <option>Vanuatu</option>
+    <option>Vatican City</option>
+    <option>Venezuela</option>
+    <option>Vietnam</option>
+    <option>British Virgin Islands</option>
+    <option>US Virgin Islands</option>
+    <option>Wallis and Futuna</option>
+    <option>Western Sahara</option>
+    <option>Yemen</option>
+    <option>Zambia</option>
+    <option>Zimbabwe</option>
+   </select>
+  </td>
+ </tr>
+ <tr >
+  <td width="133" class="left" valign="top" >
+    <strong>
+    <label>Partnering Area <span style="color:#F00">*</span></label>
+    </strong></td>
+<td class="Textbold">&nbsp;&nbsp;:&nbsp;&nbsp;</div></td>
+  <td align="left" >
+   <input type="checkbox"  name="PartneringArea[]" class="Text" id="PartneringArea" value="Spiritual Counselling Prayer Line"    /> 
+    <label class="left">Spiritual Counselling-Prayer Line</label> <br /> 
+   <input type="checkbox"  name="PartneringArea[]" class="Text" id="PartneringArea" value="Conferences "    /> 
+    <label class="left">Conferences </label> <br /> 
+   <input type="checkbox"  name="PartneringArea[]" class="Text" id="PartneringArea" value="Community Service "    /> 
+    <label class="left">Community Service </label> <br /> 
+   <input type="checkbox"  name="PartneringArea[]" class="Text" id="PartneringArea" value="Senior Care Homes"    /> 
+    <label class="left">Senior Care Homes</label> <br /> 
+   <input type="checkbox"  name="PartneringArea[]" class="Text" id="PartneringArea" value="Orphanage Homes"    /> 
+    <label class="left">Orphanage Homes</label> <br /> 
+   <input type="checkbox"  name="PartneringArea[]" class="Text" id="PartneringArea" value="Volunteer"    /> 
+    <label class="left">Volunteer</label> <br /> 
+  </td>
+ </tr>
+ <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td align="left" class="Text"><img src="captcha_org.jpg" id="captcha" align="left" /></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td align="right" colspan="2"><img src="images/refresh.png"  width="19" height="20" align="right" style="cursor:pointer"  onclick="document.getElementById('captcha').src='captcha_orgd41d.jpg?'+Math.random();
+                                                document.getElementById('captcha-form').focus();"
+                                                id="change-image" /></td>
+                                                        
+                                                        <td  align="left" valign="middle" class="Text">
+                                                        
+                                                        <input type="text" name="captcha" id="captcha-form" autocomplete="off" />
+                                                        </td>
+                                                      </tr>
+													<tr><td class="successful" align="center" height="20" colspan="3"></td></tr>
+ <tr >
+  <td width="133" class="left" >&nbsp;
+   
+  </td>
+  <td></td>
+  <td class="Text" colspan="2" align="left">
+  <input type="image" value="submit" src="Admin/images/admin_but_submit.jpg" alt="Submit" width="118" height="39"  border="0">
+ </td>
+ </tr>
+</table>
+</form>
+          <div class="break"></div>
+          </td>
+          <td valign="top"><img src="images/God-Loves-You.png" class="right-img" /></td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        <tr>
+          <td height="20"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="footer"><table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="footer-center"><table align="center" width="1000" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="190"><div class="heading">About Us</div>
+          	<a href="ministryteam.html">Ministry Team</a><br />
+            <a href="whyshepherdsinchrist.html">Why Shepherds in Christ</a><br />
+            <a href="statementoffaith.html">Statement of Faith</a><br />
+            <a href="codeofdoctrine.html">Code of Doctrine</a><br />
+            <a href="formofworship.html">Form of Worship</a><br />
+            <a href="transparency.html">Transparency</a>
+            <div class="heading">Contact Us</div>
+          	<a href="prayerrequestinfo.html">Prayer Request</a><br />
+            <a href="onlinegiving.html">Online Giving</a><br />
+            <a href="contactus.html">Contact Us</a><br /><br />
+            </td>
+          <td width="20"></td>
+          <td width="210"><div class="heading">Ministry</div>
+            <a href="newsletter.html">News Letter</a><br />
+            <a href="ministry_view0835.html?cat=1&amp;subcat=1&amp;Id=1">Mission Projects</a><br />
+            <a href="ministry_viewbab7.html?cat=2&amp;subcat=1&amp;Id=8">Old aged home</a><br />
+            <a href="ministry_view007b.html?cat=2&amp;subcat=2&amp;Id=14">Orphange home</a><br />
+            <a href="ministry_viewd4b0.html?cat=2&amp;subcat=3&amp;Id=10">Meals for souls</a><br />
+            <a href="ministry_view755f.html?cat=3&amp;subcat=1&amp;Id=9">Insight services</a><br />
+            <a href="ministry_viewaa2a.html?cat=3&amp;subcat=2&amp;Id=16">Conferences</a><br />
+            	
+													
+		<a href="christians4rapture_viewb31a.html?cat=1">Message</a><br />
+				<a href="christians4rapture_view3f7b.html?cat=2">End Time Activities</a><br />
+		            </td>
+          <td width="20"></td>
+          <td width="200"><div class="heading">Take Action</div>
+          	<a href="testimonies.html">Testimony</a><br />
+            <a href="prayerpoints.html">Prayer Points</a><br />
+            <a href="tellafriend.html">Tell A Friend</a><br />
+            <!--<a href="howtobecomeachristian.php">How Becoming a Christian ?</a><br />
+            <a href="prayerline.php">Prayer Line</a><br />-->
+            <a href="downloadresource.html">Download Resource</a><br />
+            <!--<a href="yourcommunityneeds.php">Your Community Needs !</a>-->
+            <a href="your-project-needs.html">Your Project Needs</a>
+            <div class="heading">Partnership</div>
+          	<a href="partnerregistration.html">Partner Registration</a><br />
+            <a href="signupasvolunteer.html">Signup As Volunteer</a><br />
+            <a href="partnering_ministries.html">Partnering Ministries</a>
+            </td>
+          <td width="20"></td>
+          <td width="280"><div class="heading">Connect with us</div>
+            <a href="http://www.youtube.com/user/shepherdsinchrist" target="_blank"><img src="images/youtube.png" width="53" height="53" /></a><a href="http://twitter.com/ShepherdsIntl" target="_blank"><img src="images/twitter.png" width="53" height="53" /></a><a href="http://www.facebook.com/group.php?gid=173405203823" target="_blank"><img src="images/facebook.png" width="53" height="53" /></a><!--<a href="."><img src="images/in.png" width="53" height="53" /></a>-->
+            <div class="heading">Contact Address</div>
+            <strong>GLOBAL HEADQUARTERS</strong><br>
+            Shepherds  In Christ International<br />
+            6818 W  113th Street<br />
+            Bloomington  MN 55438
+            <p><strong>India  Operations</strong><br />
+              Shepherds  in Christ Ministries<br />
+              160,  PTR Colony<br />
+              Uthamapalayam  - 625 533<br />
+              Theni  District<br>
+              <br>
+              Email: <a href="mailto:info@shepherdsinchrist.com">info@shepherdsinchrist.com</a>
+          <br />
+          </p></td>
+          <!--<td width="20"></td>
+          <td><div class="heading">Facebook</div></td>-->
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="copy-bg"><table align="center" width="1000" border="0" cellspacing="10" cellpadding="0">
+        <tr>
+          <td align="left">Copyright &copy; <script type="text/javascript">var d = new Date();document.write(d.getFullYear());</script> Shepherdsinchrist. All rights reserved.</td>
+          <td align="right">Powered by <a href="http://www.netzoneinc.com/" target="_blank">Netzone International</a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</body>
+
+<!-- Mirrored from shepherdsinchrist.net/signupasvolunteer.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Sep 2023 04:49:40 GMT -->
+</html>
