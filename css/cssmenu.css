@@ -22,6 +22,7 @@
 	/*text-indent: -900%;
 	position: absolute;*/
 	outline: none;
+	border-radius: 8px;
 }
 #menu a:hover {
 	background-position: left bottom;
@@ -143,6 +144,8 @@
 	background:url(../images/custom/menu-giveus.png) no-repeat;
 	left: 613px;
 	top: 0px;
+	margin-top: 1px;
+    height: 34px;
 }
 
 #menu li {
