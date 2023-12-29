@@ -1,7 +1,7 @@
 body { margin:0px; background:url(../images/custom/solid-blue.jpeg) repeat; }
 
 #menu .menu-button { 
-  height: 31px;
+  height: 36px;
   background-color: #04AA6D; /* Green */
   border: none;
   color: white;
@@ -9,10 +9,12 @@ body { margin:0px; background:url(../images/custom/solid-blue.jpeg) repeat; }
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 13px;
+  font-size: 15px;
   margin: 4px 1px;
   cursor: pointer; 
   border-radius: 8px; }
+#menu .menu-button.home-icon {width: 42px; height:36px; padding: 0px;}
+#menu .menu-button.home-icon img { width: 29px; height:29px;  }
 
 .mission-disclaimer	{ color: white; position: absolute; bottom: 10px;}
 .mission-disclaimer span { font-size: 38px; font-weight:bold; }
